@@ -78,9 +78,13 @@ Following GPIOs of RP2040 interfaced with onboard hardware components,
 
   
 ## RAK3172 Module Standalone
+* You can access RAK3172 module directly. For this remove Pico from header and change jumper selection to USB-RAK side as shown below,
+  
+  <img src="https://github.com/sbcshop/GatePi_LoRaWAN_Software/blob/main/images/LoRaWAN_Module_USBaccess.jpg" width="447" height="254">
 
-https://github.com/sbcshop/GatePi_LoRaWAN_Software/blob/main/images/LoRaWAN_Module_USBaccess.jpg
+* Connect device to PC/laptop using Type C. Now you can follow steps mentioned [here](https://github.com/sbcshop/LoRaWAN_Breakout_Software) to use RAK3172 module standalone like breakout for changing configuration or [Firmware update](https://github.com/sbcshop/LoRaWAN_Breakout_Software/blob/main/documents/Firmware%20Update%20Procedure%20with%20WisToolBox.pdf).
 
+  
 ## Resources
   * [Hardware Files](https://github.com/sbcshop/GatePi_LoRaWAN_Hardware) - Schematic, Step Files, 3D, etc.
   * [RAK3172 AT Command Reference](https://docs.rakwireless.com/product-categories/software-apis-and-libraries/rui3/at-command-manual/)
