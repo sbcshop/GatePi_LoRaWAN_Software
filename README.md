@@ -51,7 +51,7 @@ Following GPIOs of RP2040 interfaced with onboard hardware components,
 - Mostly hardware will have boot firmware preinstalled so you can skip and jump to next step.
 - In case you want then Press and hold onboard BOOT button and plug dongle into the USB port of your PC/Laptop. Release the BOOT button once dongle is connected to system. Also, make sure jumper setting as shown below,
 
-  <img src="https://github.com/sbcshop/GatePi_LoRaWAN_Software/blob/main/images/RP2040_USBaccess.jpg"  width= "" height= "">
+  <img src="https://github.com/sbcshop/GatePi_LoRaWAN_Software/blob/main/images/RP2040_USBaccess.jpg"  width="423" height="272">
 
 - It will mount as a Mass Storage Device called RPI-RP2.
 
@@ -61,20 +61,20 @@ Following GPIOs of RP2040 interfaced with onboard hardware components,
 
   <img src="https://github.com/sbcshop/LoRaWAN_RP2040_Dongle_Software/blob/main/images/github_download.png" width="382" height="282">
   
-- Drag and drop the [MicroPython UF2 file](https://github.com/sbcshop/LoRaWAN_RP2040_Dongle_Software/blob/main/firmware.uf2) onto the RPI-RP2 volume. Your Pico RP2040 will reboot. You are now running MicroPython.
+- Drag and drop the [MicroPython UF2 file](https://github.com/sbcshop/GatePi_LoRaWAN_Software/blob/main/firmware.uf2) onto the RPI-RP2 volume. Your Pico RP2040 will reboot. You are now running MicroPython.
 
   <img src="https://github.com/sbcshop/Micro_RP2040/blob/main/Images/firmware_install.gif"  width= "720" height= "382">
 
 ### Step 2: Testing and Running Examples
 -  Download and install [Thonny IDE](https://thonny.org/) from official site.
 -  To try any demo examples or LoRaWAN/P2P operation codes having communication between RP2040 chip and RAK3172, make sure jumper setting as shown below:
-
-  <img src="https://github.com/sbcshop/GatePi_LoRaWAN_Software/blob/main/images/RP2040_USBaccess.jpg" width= "352" height= "189">
+  
+   <img src="https://github.com/sbcshop/GatePi_LoRaWAN_Software/blob/main/images/RP2040_USBaccess.jpg" width= "352" height= "189">
   
 -  Write simple code in Thonny IDE, select MicroPython board with suitable com port (maybe different in your case). Then click on run button
    
    <img src="https://github.com/sbcshop/Micro_RP2040/blob/main/Images/test_run_code.gif" width= "720" height= "382">
--  So, now device ready you can proceed to try demo examples provide [here](https://github.com/sbcshop/LoRaWAN_RP2040_Dongle_Software/tree/main/examples) in github
+-  So, now device ready you can proceed to try demo examples provide [here]() in github
 
   
 ## RAK3172 Module Standalone
@@ -82,9 +82,12 @@ Following GPIOs of RP2040 interfaced with onboard hardware components,
 https://github.com/sbcshop/GatePi_LoRaWAN_Software/blob/main/images/LoRaWAN_Module_USBaccess.jpg
 
 ## Resources
-  * [Schematic]()
-  * [Hardware Files]()
-  * [RAK3172 AT Command Reference ](https://docs.rakwireless.com/product-categories/software-apis-and-libraries/rui3/at-command-manual/)
+  * [Hardware Files](https://github.com/sbcshop/GatePi_LoRaWAN_Hardware) - Schematic, Step Files, 3D, etc.
+  * [RAK3172 AT Command Reference](https://docs.rakwireless.com/product-categories/software-apis-and-libraries/rui3/at-command-manual/)
+  * [CH340 Driver Installation Guide](https://github.com/sbcshop/NFC_Module/blob/main/documents/CH340%20Driver%20installation%20steps.pdf)
+  * [MicroPython getting started for RPi Pico/Pico W](https://docs.micropython.org/en/latest/rp2/quickref.html)
+  * [Pico W Getting Started](https://projects.raspberrypi.org/en/projects/get-started-pico-w)
+  * [RP2040 Datasheet](https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf)
 
 ## Related Products  
 
