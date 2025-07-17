@@ -74,7 +74,7 @@ Following GPIOs of RP2040 interfaced with onboard hardware components,
 -  Write simple code in Thonny IDE, select MicroPython board with suitable com port (maybe different in your case). Then click on run button
    
    <img src="https://github.com/sbcshop/Micro_RP2040/blob/main/Images/test_run_code.gif" width= "720" height= "382">
--  So, now device ready you can proceed to try demo examples provide [here]() in github
+-  So, now device ready you can proceed to try demo examples provided [here](https://github.com/sbcshop/GatePi_LoRaWAN_Software/tree/main/examples) in github for **P2P/LoRaWAN** operations.
 
   
 ## RAK3172 Module Standalone
